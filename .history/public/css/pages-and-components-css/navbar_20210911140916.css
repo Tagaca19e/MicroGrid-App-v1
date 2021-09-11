@@ -13,14 +13,7 @@
   width: 100%;
   z-index: 999;
   position: fixed;
-  /* background-color: rgba(0, 0, 0, 0.623); */
-  background-image: linear-gradient(
-    to top,
-    #4fb576da 3%,
-    #4c7788da 71%,
-    #6c4f63da 80,
-    #432c39da 100%
-  );
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;

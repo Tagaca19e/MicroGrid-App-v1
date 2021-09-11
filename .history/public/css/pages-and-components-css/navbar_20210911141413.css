@@ -16,10 +16,13 @@
   /* background-color: rgba(0, 0, 0, 0.623); */
   background-image: linear-gradient(
     to top,
-    #4fb576da 3%,
-    #4c7788da 71%,
-    #6c4f63da 80,
-    #432c39da 100%
+    #4fb57660 0%,
+    #44c48850 30%,
+    #28a9ae5e 46%,
+    #28a2b75b 59%,
+    #4c77884b 71%,
+    #6c4f634d 86%,
+    #432c392c 100%
   );
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
