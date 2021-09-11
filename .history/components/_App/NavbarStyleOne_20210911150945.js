@@ -37,7 +37,7 @@ const NavbarStyleOne = () => {
             <nav className="navbar navbar-expand-md navbar-light bg-light">
               <Link href="/">
                 <a className="navbar-brand">
-                  <img src="/images/opren1.png" alt="logo" />
+                  <img src="/images/opren_logo.png" alt="logo" />
                 </a>
               </Link>
 
