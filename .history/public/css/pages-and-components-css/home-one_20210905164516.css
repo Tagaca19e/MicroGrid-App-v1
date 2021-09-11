@@ -8,21 +8,16 @@ Main Banner Area CSS
 }
 
 .main-banner-area::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -1;
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.96%,
-    #ff9f5a 99.95%
-  );
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.96%, #FF9F5A 99.95%);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .main-banner-area .shape-overlay {
@@ -37,7 +32,7 @@ Main Banner Area CSS
 .main-banner-area .shape-overlay::before {
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   bottom: 200px;
   height: 485px;
   position: absolute;
@@ -50,7 +45,7 @@ Main Banner Area CSS
 .main-banner-area .shape-overlay::after {
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   bottom: -1px;
   height: 202px;
   position: absolute;
@@ -64,11 +59,11 @@ Main Banner Area CSS
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main-banner-content .content {
@@ -131,7 +126,7 @@ Main Banner Area CSS
 .main-banner-image {
   text-align: center;
   -webkit-filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
-  filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
+          filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
 }
 
 .banner-shape1 {
@@ -143,7 +138,7 @@ Main Banner Area CSS
 
 .banner-shape1 img {
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .banner-shape2 {
@@ -155,13 +150,13 @@ Main Banner Area CSS
 
 .banner-shape2 img {
   -webkit-animation-name: rotateme;
-  animation-name: rotateme;
+          animation-name: rotateme;
   -webkit-animation-duration: 40s;
-  animation-duration: 40s;
+          animation-duration: 40s;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 .banner-shape3 {
@@ -173,7 +168,7 @@ Main Banner Area CSS
 
 .banner-shape3 img {
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .banner-shape4 {
@@ -185,7 +180,7 @@ Main Banner Area CSS
 
 .banner-shape4 img {
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .banner-shape5 {
@@ -197,7 +192,7 @@ Main Banner Area CSS
 
 .banner-shape5 img {
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 /*================================================
@@ -211,7 +206,7 @@ Features Area CSS
 .single-features-box {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background-color: #f4f8fc;
+  background-color: #F4F8FC;
   margin-bottom: 25px;
   padding: 30px 20px;
 }
@@ -226,7 +221,7 @@ Features Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
+  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
   margin-bottom: 25px;
 }
 
@@ -236,19 +231,19 @@ Features Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .single-features-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
 }
 
 .single-features-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
+  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
 }
 
 .single-features-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
+  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
 }
 
 .single-features-box h3 {
@@ -258,10 +253,8 @@ Features Area CSS
 
 .single-features-box:hover {
   background-color: var(--whiteColor);
-  -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1),
-    0 30px 60px -30px rgba(107, 124, 147, 0.15);
-  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1),
-    0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+          box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 
 .single-features-box:hover .icon {
@@ -305,7 +298,7 @@ Features Area CSS
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
+  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
   position: absolute;
   text-align: center;
   color: var(--whiteColor);
@@ -320,15 +313,15 @@ Features Area CSS
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .features-content .features-list li .icon.bg2 {
-  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
+  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
 }
 
 .features-content .features-list li .icon.bg3 {
-  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
 }
 
 .features-content .features-list li h3 {
@@ -346,7 +339,6 @@ Features Area CSS
 
 .features-content .btn-box .default-btn {
   margin-right: 15px;
-  background-color: #0064fb;
 }
 
 .features-content .btn-box .link-btn {
@@ -356,7 +348,7 @@ Features Area CSS
 }
 
 .features-content .btn-box .link-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   -webkit-transition: var(--transition);
@@ -377,7 +369,7 @@ Features Area CSS
 
 .features-image {
   -webkit-filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
-  filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
+          filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
   padding-left: 15px;
   position: relative;
   z-index: 1;
@@ -407,8 +399,8 @@ Features Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-  box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
+          box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
 }
 
 .single-features-item .icon i {
@@ -417,32 +409,27 @@ Features Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .single-features-item .icon.bg2 {
-  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
+  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
 }
 
 .single-features-item .icon.bg3 {
-  background: linear-gradient(45deg, #ed2775 0%, #ff7448 100%);
+  background: linear-gradient(45deg, #ED2775 0%, #FF7448 100%);
 }
 
 .single-features-item .icon.bg4 {
-  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
+  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
 }
 
 .single-features-item .icon.bg5 {
-  background: linear-gradient(
-    43.32deg,
-    #6a55f8 14.73%,
-    #ca48f6 86.35%,
-    #ca48f6 86.35%
-  );
+  background: linear-gradient(43.32deg, #6A55F8 14.73%, #CA48F6 86.35%, #CA48F6 86.35%);
 }
 
 .single-features-item .icon.bg6 {
-  background: linear-gradient(45deg, #6a55f8 0%, #ee6c74 100%);
+  background: linear-gradient(45deg, #6A55F8 0%, #EE6C74 100%);
 }
 
 .single-features-item h3 {
@@ -458,7 +445,7 @@ Features Area CSS
 }
 
 .single-features-item::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -474,18 +461,15 @@ Features Area CSS
 }
 
 .single-features-item:hover {
-  -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1),
-    0 30px 60px -30px rgba(107, 124, 147, 0.15);
-  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1),
-    0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+          box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 
 .single-features-item:hover .icon {
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
-.single-features-item:hover h3,
-.single-features-item:hover p {
+.single-features-item:hover h3, .single-features-item:hover p {
   color: var(--whiteColor);
 }
 
@@ -511,7 +495,7 @@ Video Area CSS
 }
 
 .video-box::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -541,18 +525,17 @@ Video Area CSS
   top: 50%;
   z-index: 1;
   -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
-  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+          transform: translateY(-50%) translateX(-50%);
+  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-  box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
+          box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
   cursor: pointer;
 }
 
-.video-box .video-btn::after,
-.video-box .video-btn::before {
-  content: "";
+.video-box .video-btn::after, .video-box .video-btn::before {
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -566,12 +549,12 @@ Video Area CSS
 
 .video-box .video-btn::before {
   -webkit-animation: ripple 2s linear infinite;
-  animation: ripple 2s linear infinite;
+          animation: ripple 2s linear infinite;
 }
 
 .video-box .video-btn::after {
   -webkit-animation: ripple 2s linear 1s infinite;
-  animation: ripple 2s linear 1s infinite;
+          animation: ripple 2s linear 1s infinite;
 }
 
 .video-box:hover::before {
@@ -624,19 +607,14 @@ App Download Area CSS
 }
 
 .app-download-inner::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   border-radius: 5px;
-  background: linear-gradient(
-    76.92deg,
-    #c89cff 0%,
-    #ff54b0 52.08%,
-    #ff9f5a 100%
-  );
+  background: linear-gradient(76.92deg, #C89CFF 0%, #FF54B0 52.08%, #FF9F5A 100%);
   z-index: -1;
   margin-top: 50px;
   margin-right: 15px;
@@ -680,7 +658,7 @@ App Download Area CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 14px;
   font-weight: 500;
   padding-top: 12px;
@@ -701,7 +679,7 @@ App Download Area CSS
 
 .app-download-content .btn-box .playstore-btn img {
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -710,7 +688,7 @@ App Download Area CSS
 .app-download-content .btn-box .playstore-btn:hover {
   background-color: var(--blackColor);
   -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
+          transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -725,7 +703,7 @@ App Download Area CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 14px;
   font-weight: 500;
   padding-top: 12px;
@@ -746,7 +724,7 @@ App Download Area CSS
 
 .app-download-content .btn-box .applestore-btn img {
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -755,7 +733,7 @@ App Download Area CSS
 .app-download-content .btn-box .applestore-btn:hover {
   background-color: var(--blackColor);
   -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
+          transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -780,7 +758,7 @@ Screenshots Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 55%;
   position: absolute;
@@ -799,7 +777,7 @@ Screenshots Area CSS
   transition: var(--transition);
 }
 
-.screenshots-slides.owl-theme .owl-nav [class*="owl-"] {
+.screenshots-slides.owl-theme .owl-nav [class*=owl-] {
   position: absolute;
   top: -60px;
   left: 0;
@@ -817,8 +795,8 @@ Screenshots Area CSS
   padding: 0;
 }
 
-.screenshots-slides.owl-theme .owl-nav [class*="owl-"]::before {
-  content: "";
+.screenshots-slides.owl-theme .owl-nav [class*=owl-]::before {
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -833,18 +811,18 @@ Screenshots Area CSS
   visibility: hidden;
 }
 
-.screenshots-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+.screenshots-slides.owl-theme .owl-nav [class*=owl-].owl-next {
   left: auto;
   right: 0;
 }
 
-.screenshots-slides.owl-theme .owl-nav [class*="owl-"]:hover {
+.screenshots-slides.owl-theme .owl-nav [class*=owl-]:hover {
   background-color: #f9f9f9;
   color: var(--whiteColor);
   border-radius: 50%;
 }
 
-.screenshots-slides.owl-theme .owl-nav [class*="owl-"]:hover::before {
+.screenshots-slides.owl-theme .owl-nav [class*=owl-]:hover::before {
   opacity: 1;
   border-radius: 50%;
   visibility: visible;
@@ -913,7 +891,7 @@ Software Integrations Area CSS
   transition: var(--transition);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-  box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+          box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
 }
 
 .software-integrations-list ul li img {
@@ -922,7 +900,7 @@ Software Integrations Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   margin-left: auto;
   margin-right: auto;
 }
@@ -968,7 +946,7 @@ Software Integrations Area CSS
   width: 140px;
   height: 140px;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   margin-left: auto;
   margin-right: auto;
 }
@@ -992,26 +970,16 @@ Pricing Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   position: absolute;
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
 .pricing-area.gradient-color {
-  background: linear-gradient(
-    76.8deg,
-    #2ba6ac 0%,
-    #36ce83 53.03%,
-    #42e695 100%
-  );
+  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
 }
 
 .pricing-section-title {
@@ -1044,7 +1012,7 @@ Pricing Area CSS
   list-style-type: none;
   display: inline-block;
   -ms-flex-wrap: unset;
-  flex-wrap: unset;
+      flex-wrap: unset;
   padding: 5px;
   border-radius: 30px;
   background-color: var(--whiteColor);
@@ -1068,7 +1036,7 @@ Pricing Area CSS
 }
 
 .pricing-tabs .nav-tabs .nav-link::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -1083,13 +1051,11 @@ Pricing Area CSS
   background: var(--gradientColor);
 }
 
-.pricing-tabs .nav-tabs .nav-link:hover,
-.pricing-tabs .nav-tabs .nav-link.active {
+.pricing-tabs .nav-tabs .nav-link:hover, .pricing-tabs .nav-tabs .nav-link.active {
   color: var(--whiteColor);
 }
 
-.pricing-tabs .nav-tabs .nav-link:hover::before,
-.pricing-tabs .nav-tabs .nav-link.active::before {
+.pricing-tabs .nav-tabs .nav-link:hover::before, .pricing-tabs .nav-tabs .nav-link.active::before {
   opacity: 1;
   visibility: visible;
 }
@@ -1147,7 +1113,7 @@ Pricing Area CSS
   top: -3.5px;
   left: -2px;
   font-size: 22px;
-  color: #36cc72;
+  color: #36CC72;
   position: absolute;
 }
 
@@ -1161,7 +1127,7 @@ Pricing Area CSS
 
 .single-pricing-table:hover {
   -webkit-box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
 }
 
 .single-pricing-table .popular {
@@ -1190,7 +1156,7 @@ Pricing Area CSS
 .see-more-pricing .link-btn::before {
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   position: absolute;
@@ -1213,7 +1179,7 @@ Feedback Area CSS
 .single-feedback-box {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background: #f4f8fc;
+  background: #F4F8FC;
   margin-bottom: 25px;
   padding: 30px;
 }
@@ -1258,20 +1224,20 @@ Feedback Area CSS
 
 .single-feedback-box .rating div i {
   line-height: 1;
-  color: #ffca40;
+  color: #FFCA40;
   margin-left: 2px;
 }
 
 .single-feedback-box:hover {
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
-  box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
+          box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
 }
 
 .owl-item.active.center .single-feedback-box {
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
-  box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
+          box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
 }
 
 .feedback-slides.owl-theme .owl-nav.disabled + .owl-dots {
@@ -1293,11 +1259,11 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   opacity: 0.1;
   position: absolute;
   border-radius: 50%;
-  background-color: #0064fb;
+  background-color: #0064FB;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -1308,30 +1274,23 @@ Feedback Area CSS
   right: 0;
   bottom: 0;
   opacity: 0;
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 50%;
   visibility: hidden;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
-.feedback-slides.owl-theme .owl-dots .owl-dot:hover span::before,
-.feedback-slides.owl-theme .owl-dots .owl-dot.active span::before {
+.feedback-slides.owl-theme .owl-dots .owl-dot:hover span::before, .feedback-slides.owl-theme .owl-dots .owl-dot.active span::before {
   opacity: 0;
   visibility: hidden;
 }
 
-.feedback-slides.owl-theme .owl-dots .owl-dot:hover span::after,
-.feedback-slides.owl-theme .owl-dots .owl-dot.active span::after {
+.feedback-slides.owl-theme .owl-dots .owl-dot:hover span::after, .feedback-slides.owl-theme .owl-dots .owl-dot.active span::after {
   opacity: 1;
   visibility: visible;
 }
@@ -1347,7 +1306,7 @@ Free Trial Area CSS
 }
 
 .free-trial-content::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -1355,14 +1314,9 @@ Free Trial Area CSS
   z-index: -1;
   bottom: 0;
   border-radius: 5px;
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .free-trial-content .sub-title {
@@ -1478,18 +1432,18 @@ Free Trial Area CSS
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
     padding: 0 10px;
   }
   .features-content .features-list li {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     width: 50%;
     padding-left: 10px;
     padding-right: 10px;
@@ -1507,11 +1461,11 @@ Free Trial Area CSS
     text-align: center;
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
-    -ms-flex-direction: unset;
-    flex-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
     -webkit-box-pack: unset;
-    -ms-flex-pack: unset;
-    justify-content: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
   }
   .main-banner-content .content {
     max-width: 100%;
@@ -1540,11 +1494,9 @@ Free Trial Area CSS
   .main-banner-image {
     margin-top: 35px;
     -webkit-filter: unset;
-    filter: unset;
+            filter: unset;
   }
-  .banner-shape2,
-  .banner-shape4,
-  .banner-shape3 {
+  .banner-shape2, .banner-shape4, .banner-shape3 {
     display: none;
   }
   .banner-shape5 {
@@ -1703,14 +1655,14 @@ Free Trial Area CSS
     padding-left: 0;
     margin-top: 35px;
     -webkit-transform: unset !important;
-    transform: unset !important;
+            transform: unset !important;
   }
   .screenshots-slides.owl-theme .owl-nav {
     opacity: 1;
     margin-top: 25px;
     visibility: visible;
   }
-  .screenshots-slides.owl-theme .owl-nav [class*="owl-"] {
+  .screenshots-slides.owl-theme .owl-nav [class*=owl-] {
     top: 0;
     width: 40px;
     height: 40px;
@@ -1719,7 +1671,7 @@ Free Trial Area CSS
     margin-left: 5px;
     margin-right: 5px;
   }
-  .screenshots-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+  .screenshots-slides.owl-theme .owl-nav [class*=owl-].owl-next {
     left: 0;
   }
   .software-integrations-content {
@@ -1756,7 +1708,7 @@ Free Trial Area CSS
     left: 0 !important;
     top: 0 !important;
     -webkit-transform: unset !important;
-    transform: unset !important;
+            transform: unset !important;
     width: 80px !important;
     height: 80px !important;
     margin-top: 15px;
@@ -1832,8 +1784,8 @@ Free Trial Area CSS
   }
   .single-feedback-box .client-info .d-flex {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .single-feedback-box .client-info .title {
     text-align: start;
@@ -1857,9 +1809,9 @@ Free Trial Area CSS
     margin-bottom: 15px;
   }
   .owl-item.active.center .single-feedback-box {
-    background: #f4f8fc;
+    background: #F4F8FC;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
   }
   .feedback-slides.owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 0;
@@ -1929,11 +1881,11 @@ Free Trial Area CSS
     text-align: center;
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
-    -ms-flex-direction: unset;
-    flex-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main-banner-content .content {
     top: 0;
@@ -1959,9 +1911,7 @@ Free Trial Area CSS
   .main-banner-image {
     margin-top: 35px;
   }
-  .banner-shape2,
-  .banner-shape4,
-  .banner-shape3 {
+  .banner-shape2, .banner-shape4, .banner-shape3 {
     display: none;
   }
   .banner-shape5 {
@@ -1995,18 +1945,18 @@ Free Trial Area CSS
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: -15px;
     margin-right: -15px;
     padding: 0 15px;
   }
   .features-content .features-list li {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     width: 50%;
     padding-left: 20px;
     padding-right: 20px;
@@ -2072,32 +2022,30 @@ Free Trial Area CSS
   .app-download-content h2 {
     font-size: 30px;
   }
-  .app-download-content .btn-box .playstore-btn,
-  .app-download-content .btn-box .applestore-btn {
+  .app-download-content .btn-box .playstore-btn, .app-download-content .btn-box .applestore-btn {
     text-align: start;
   }
-  .app-download-content .btn-box .playstore-btn span,
-  .app-download-content .btn-box .applestore-btn span {
+  .app-download-content .btn-box .playstore-btn span, .app-download-content .btn-box .applestore-btn span {
     font-size: 15px;
   }
   .app-download-image {
     padding-left: 0;
     margin-top: 30px;
     -webkit-transform: unset !important;
-    transform: unset !important;
+            transform: unset !important;
   }
   .screenshots-slides.owl-theme .owl-nav {
     opacity: 1;
     margin-top: 30px;
     visibility: visible;
   }
-  .screenshots-slides.owl-theme .owl-nav [class*="owl-"] {
+  .screenshots-slides.owl-theme .owl-nav [class*=owl-] {
     position: relative;
     top: 0;
     margin-left: 5px;
     margin-right: 5px;
   }
-  .screenshots-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+  .screenshots-slides.owl-theme .owl-nav [class*=owl-].owl-next {
     left: 0;
   }
   .software-integrations-content {
@@ -2210,8 +2158,7 @@ Free Trial Area CSS
   .main-banner-content .trusted-by .title {
     letter-spacing: 0;
   }
-  .banner-shape3,
-  .banner-shape4 {
+  .banner-shape3, .banner-shape4 {
     display: none;
   }
   .video-box {

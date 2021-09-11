@@ -42,8 +42,7 @@ This files table contents are outlined below >>>>>
   --mainColor: #ed2775;
   --whiteColor: #ffffff;
   --blackColor: #262a37;
-  /* background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%); */
-  --gradientColor: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  --gradientColor: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
   --paragraphColor: #716c80;
   --fontFamily: "Inter", sans-serif;
   scroll-behavior: inherit;
@@ -155,19 +154,6 @@ p:last-child {
 
 /* default-btn */
 .default-btn {
-  z-index: 1;
-  border: none;
-  position: relative;
-  padding: 12px 35px;
-  border-radius: 30px;
-  display: inline-block;
-  color: var(--whiteColor);
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  background-color: ;
-  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-  font-size: var(--fontSize);
-  font-weight: 600;
 }
 
 .default-btn::before {

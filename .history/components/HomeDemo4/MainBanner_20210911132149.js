@@ -23,12 +23,12 @@ const MainBanner = () => {
             <img src="/images/banner/banner-app3.png" alt="image" />
           </div>
         </div>
-        {/* divider is the blue shape on the banner */}
+
         <div className="divider"></div>
 
         {/* Shape Images */}
         <div className="banner-shape3">
-          <img src="/images/shape/shape2.png" alt="image" />
+          {/* <img src="/images/shape/shape2.png" alt="image" /> */}
         </div>
         <div className="banner-shape8">
           <img src="/images/shape/shape11.png" alt="image" />

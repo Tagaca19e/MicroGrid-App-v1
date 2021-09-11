@@ -46,7 +46,7 @@ Gradient Main Banner Area CSS
 
 .gradient-main-banner-inner .content .default-btn {
   margin-top: 10px;
-  color: var(--whiteColor);
+  color: black;
   background-color: var(--blackColor);
 }
 

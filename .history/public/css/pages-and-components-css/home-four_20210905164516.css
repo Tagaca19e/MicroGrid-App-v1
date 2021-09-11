@@ -2,17 +2,7 @@
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  background-image: linear-gradient(
-    to top,
-    #4fb576 0%,
-    #44c489 30%,
-    #28a9ae 46%,
-    #28a2b7 59%,
-    #4c7788 71%,
-    #6c4f63 86%,
-    #432c39 100%
-  );
-
+  background: linear-gradient(42.99deg, #3F75FF 10.19%, #44A6FF 50.48%, #4ADEFF 94.28%);
   padding-top: 160px;
   position: relative;
   z-index: 1;
@@ -21,12 +11,7 @@ Main Banner Area CSS
 .main-banner .content {
   text-align: center;
 }
-.introduction {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  font-size: 1.2rem;
-  color: white;
-}
+
 .main-banner .content .sub-title {
   background-color: rgba(255, 255, 255, 0.15);
   color: var(--whiteColor);
@@ -65,7 +50,7 @@ Main Banner Area CSS
   margin-top: 50px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.15);
-  box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.15);
+          box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.15);
 }
 
 .main-banner .divider {
@@ -78,7 +63,7 @@ Main Banner Area CSS
   right: 0;
   bottom: 0;
   z-index: -1;
-  content: "";
+  content: '';
   height: 300px;
   position: absolute;
   background-color: var(--whiteColor);
@@ -134,7 +119,7 @@ Features Area CSS
 
 .single-features-item.without-hover:hover {
   -webkit-box-shadow: unset;
-  box-shadow: unset;
+          box-shadow: unset;
 }
 
 .single-features-item.without-hover:hover h3 {
@@ -191,7 +176,7 @@ Screenshots Area CSS
   height: 45px;
   border-radius: 50%;
   color: var(--whiteColor);
-  background-color: #393f50;
+  background-color: #393F50;
 }
 
 .screen-swiper-slides .swiper-button-next::after {
@@ -205,7 +190,7 @@ Screenshots Area CSS
   bottom: 0;
   opacity: 0;
   z-index: -1;
-  content: "";
+  content: '';
   border-radius: 50%;
   visibility: hidden;
   position: absolute;
@@ -226,7 +211,7 @@ Screenshots Area CSS
   height: 45px;
   border-radius: 50%;
   color: var(--whiteColor);
-  background-color: #393f50;
+  background-color: #393F50;
 }
 
 .screen-swiper-slides .swiper-button-prev::after {
@@ -240,7 +225,7 @@ Screenshots Area CSS
   bottom: 0;
   opacity: 0;
   z-index: -1;
-  content: "";
+  content: '';
   border-radius: 50%;
   visibility: hidden;
   position: absolute;
@@ -270,16 +255,11 @@ Software Integrations Area CSS
   right: 0;
   bottom: 0;
   z-index: -1;
-  content: "";
+  content: '';
   position: absolute;
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 /*================================================
@@ -291,8 +271,7 @@ Pricing Area CSS
   -webkit-text-fill-color: transparent;
 }
 
-.pricing-section-title.black-color h2,
-.pricing-section-title.black-color p {
+.pricing-section-title.black-color h2, .pricing-section-title.black-color p {
   color: var(--blackColor);
 }
 
@@ -322,23 +301,18 @@ Feedback Area CSS
   left: 0;
   bottom: 0;
   width: 50%;
-  content: "";
+  content: '';
   z-index: -1;
   position: absolute;
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
 .feedback-slides-two.owl-theme .single-feedback-box {
   background-color: var(--whiteColor);
   -webkit-box-shadow: unset;
-  box-shadow: unset;
+          box-shadow: unset;
 }
 
 .feedback-slides-two.owl-theme .owl-nav.disabled + .owl-dots {
@@ -359,11 +333,11 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   opacity: 0.1;
   position: absolute;
   border-radius: 50%;
-  background-color: #0064fb;
+  background-color: #0064FB;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -374,30 +348,23 @@ Feedback Area CSS
   right: 0;
   bottom: 0;
   opacity: 0;
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 50%;
   visibility: hidden;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
-.feedback-slides-two.owl-theme .owl-dots .owl-dot:hover span::before,
-.feedback-slides-two.owl-theme .owl-dots .owl-dot.active span::before {
+.feedback-slides-two.owl-theme .owl-dots .owl-dot:hover span::before, .feedback-slides-two.owl-theme .owl-dots .owl-dot.active span::before {
   opacity: 0;
   visibility: hidden;
 }
 
-.feedback-slides-two.owl-theme .owl-dots .owl-dot:hover span::after,
-.feedback-slides-two.owl-theme .owl-dots .owl-dot.active span::after {
+.feedback-slides-two.owl-theme .owl-dots .owl-dot:hover span::after, .feedback-slides-two.owl-theme .owl-dots .owl-dot.active span::after {
   opacity: 1;
   visibility: visible;
 }
@@ -454,7 +421,7 @@ Feedback Area CSS
   .main-banner .content .default-btn {
     margin-top: 10px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
   }
   .main-banner .content img {
     margin-top: 30px;

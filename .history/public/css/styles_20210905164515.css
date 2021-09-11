@@ -38,14 +38,13 @@ This files table contents are outlined below >>>>>
 /* Global Variables */
 :root {
   --fontSize: 14px;
-  --transition: 0.5s;
-  --mainColor: #ed2775;
+  --transition: .5s;
+  --mainColor: #ED2775;
   --whiteColor: #ffffff;
-  --blackColor: #262a37;
-  /* background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%); */
-  --gradientColor: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  --blackColor: #262A37;
+  --gradientColor: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
   --paragraphColor: #716c80;
-  --fontFamily: "Inter", sans-serif;
+  --fontFamily: 'Inter', sans-serif;
   scroll-behavior: inherit;
 }
 
@@ -57,18 +56,7 @@ body {
   font-family: var(--fontFamily);
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: var(--blackColor);
   font-weight: 700;
 }
@@ -142,11 +130,11 @@ p:last-child {
 }
 
 .bg-F7F7FF {
-  background-color: #f7f7ff;
+  background-color: #F7F7FF;
 }
 
 .bg-F4F8FC {
-  background-color: #f4f8fc;
+  background-color: #F4F8FC;
 }
 
 .bg-f9f9f9 {
@@ -164,14 +152,14 @@ p:last-child {
   color: var(--whiteColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background-color: ;
-  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
   font-size: var(--fontSize);
   font-weight: 600;
 }
 
 .default-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -191,7 +179,6 @@ p:last-child {
 
 .default-btn:hover::before {
   opacity: 0;
-  background-color: #2ba6ac;
   visibility: hidden;
 }
 
@@ -237,7 +224,7 @@ p:last-child {
 .form-control {
   background-color: #f5f5f5 !important;
   -webkit-box-shadow: unset !important;
-  box-shadow: unset !important;
+          box-shadow: unset !important;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: var(--fontSize);
@@ -300,7 +287,7 @@ textarea.form-control {
   left: -50px;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .shape2 {
@@ -309,7 +296,7 @@ textarea.form-control {
   right: -70px;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .bg-shape1 {
@@ -319,7 +306,7 @@ textarea.form-control {
   z-index: -1;
   position: absolute;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .shape3 {
@@ -328,7 +315,7 @@ textarea.form-control {
   z-index: -1;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .shape4 {
@@ -337,7 +324,7 @@ textarea.form-control {
   z-index: -1;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .shape5 {
@@ -356,7 +343,7 @@ textarea.form-control {
 
 .shape6 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-  animation: moveleftbounce 5s linear infinite;
+          animation: moveleftbounce 5s linear infinite;
 }
 
 .shape7 {
@@ -368,7 +355,7 @@ textarea.form-control {
 
 .shape7 img {
   -webkit-animation: opacitychange 4s linear 1s infinite;
-  animation: opacitychange 4s linear 1s infinite;
+          animation: opacitychange 4s linear 1s infinite;
 }
 
 .shape8 {
@@ -380,13 +367,13 @@ textarea.form-control {
 
 .shape8 img {
   -webkit-animation-name: rotateme;
-  animation-name: rotateme;
+          animation-name: rotateme;
   -webkit-animation-duration: 20s;
-  animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 .shape9 {
@@ -398,7 +385,7 @@ textarea.form-control {
 
 .shape9 img {
   -webkit-animation: opacitychange 4s linear 1s infinite;
-  animation: opacitychange 4s linear 1s infinite;
+          animation: opacitychange 4s linear 1s infinite;
 }
 
 .shape10 {
@@ -424,7 +411,7 @@ textarea.form-control {
 
 .shape12 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-  animation: moveleftbounce 5s linear infinite;
+          animation: moveleftbounce 5s linear infinite;
 }
 
 .shape13 {
@@ -436,13 +423,13 @@ textarea.form-control {
 
 .shape13 img {
   -webkit-animation-name: rotateme;
-  animation-name: rotateme;
+          animation-name: rotateme;
   -webkit-animation-duration: 20s;
-  animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 .lines {
@@ -475,25 +462,13 @@ textarea.form-control {
   display: block;
   position: absolute;
   -webkit-animation: run 7s 0s infinite;
-  animation: run 7s 0s infinite;
+          animation: run 7s 0s infinite;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(255, 255, 255, 0)),
-    color-stop(75%, var(--whiteColor)),
-    to(var(--whiteColor))
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    var(--whiteColor) 75%,
-    var(--whiteColor) 100%
-  );
+          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(75%, var(--whiteColor)), to(var(--whiteColor)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, var(--whiteColor) 75%, var(--whiteColor) 100%);
 }
 
 .lines .line:nth-child(1) {
@@ -502,7 +477,7 @@ textarea.form-control {
 
 .lines .line:nth-child(1)::after {
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .lines .line:nth-child(3) {
@@ -511,7 +486,7 @@ textarea.form-control {
 
 .lines .line:nth-child(3)::after {
   -webkit-animation-delay: 2.5s;
-  animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .lines .line:nth-child(4) {
@@ -520,7 +495,7 @@ textarea.form-control {
 
 .lines .line:nth-child(4)::after {
   -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .lines .line:nth-child(5) {
@@ -529,7 +504,7 @@ textarea.form-control {
 
 .lines .line:nth-child(5)::after {
   -webkit-animation-delay: 3.5s;
-  animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
 .shape14 {
@@ -541,7 +516,7 @@ textarea.form-control {
 
 .shape14 img {
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .shape15 {
@@ -553,7 +528,7 @@ textarea.form-control {
 
 .shape15 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-  animation: moveleftbounce 5s linear infinite;
+          animation: moveleftbounce 5s linear infinite;
 }
 
 .divider {
@@ -575,7 +550,7 @@ textarea.form-control {
 .page-title-area {
   z-index: 1;
   position: relative;
-  background: linear-gradient(50.48deg, #ed2775 -2.06%, #ff7448 93.55%);
+  background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
   padding-bottom: 100px;
   padding-top: 180px;
 }
@@ -585,9 +560,9 @@ textarea.form-control {
   right: 0;
   top: 82px;
   height: 1px;
-  content: "";
+  content: '';
   z-index: -1;
-  opacity: 0.2;
+  opacity: .2;
   position: absolute;
   background-color: var(--whiteColor);
 }
@@ -598,7 +573,7 @@ textarea.form-control {
 
 .page-title-area.page-title-style-two::before {
   background-color: var(--blackColor);
-  opacity: 0.04;
+  opacity: .04;
 }
 
 .page-title-area.page-title-style-two .page-title-content h2 {
@@ -619,17 +594,12 @@ textarea.form-control {
 
 .page-title-area.page-title-style-two .page-title-content ul li::before {
   background-color: var(--blackColor);
-  opacity: 0.3;
+  opacity: .3;
 }
 
 .page-title-area.bg-color {
   padding-bottom: 105px;
-  background: linear-gradient(
-    76.8deg,
-    #2ba6ac 0%,
-    #36ce83 53.03%,
-    #42e695 100%
-  );
+  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
 }
 
 .page-title-area.bg-color::before {
@@ -662,7 +632,7 @@ textarea.form-control {
   display: inline-block;
   position: relative;
   font-size: 16px;
-  opacity: 0.9;
+  opacity: .9;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -687,9 +657,9 @@ textarea.form-control {
   margin-top: 1px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   right: -18px;
-  content: "";
+  content: '';
   position: absolute;
   width: 5px;
   height: 5px;
@@ -709,8 +679,8 @@ textarea.form-control {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .pagination-area .page-numbers {
@@ -725,18 +695,10 @@ textarea.form-control {
   color: var(--paragraphColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ffffff),
-    to(#eaeef3)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eaeef3));
   background: linear-gradient(180deg, #ffffff 0%, #eaeef3 100%);
-  -webkit-box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15),
-    0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
-  box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15),
-    0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
+          box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
   font-size: 15px;
   font-weight: 700;
   margin-left: 5px;
@@ -768,32 +730,32 @@ textarea.form-control {
 @-webkit-keyframes ripple {
   0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
   75% {
     -webkit-transform: scale(1.75);
-    transform: scale(1.75);
+            transform: scale(1.75);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(2);
-    transform: scale(2);
+            transform: scale(2);
     opacity: 0;
   }
 }
 @keyframes ripple {
   0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
   75% {
     -webkit-transform: scale(1.75);
-    transform: scale(1.75);
+            transform: scale(1.75);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(2);
-    transform: scale(2);
+            transform: scale(2);
     opacity: 0;
   }
 }
@@ -801,82 +763,82 @@ textarea.form-control {
 @-webkit-keyframes movebounce {
   0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
   50% {
     -webkit-transform: translateY(15px);
-    transform: translateY(15px);
+            transform: translateY(15px);
   }
   100% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes movebounce {
   0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
   50% {
     -webkit-transform: translateY(15px);
-    transform: translateY(15px);
+            transform: translateY(15px);
   }
   100% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @-webkit-keyframes moveleftbounce {
   0% {
     -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+            transform: translateX(0px);
   }
   50% {
     -webkit-transform: translateX(15px);
-    transform: translateX(15px);
+            transform: translateX(15px);
   }
   100% {
     -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+            transform: translateX(0px);
   }
 }
 
 @keyframes moveleftbounce {
   0% {
     -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+            transform: translateX(0px);
   }
   50% {
     -webkit-transform: translateX(15px);
-    transform: translateX(15px);
+            transform: translateX(15px);
   }
   100% {
     -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+            transform: translateX(0px);
   }
 }
 
 @-webkit-keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
 @keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -992,15 +954,7 @@ textarea.form-control {
     padding: 11px 30px;
     font-size: 12.5px;
   }
-  .shape1,
-  .shape2,
-  .bg-shape1,
-  .shape6,
-  .shape8,
-  .shape12,
-  .shape13,
-  .shape10,
-  .shape11 {
+  .shape1, .shape2, .bg-shape1, .shape6, .shape8, .shape12, .shape13, .shape10, .shape11 {
     display: none;
   }
   .shape7 {
@@ -1090,9 +1044,7 @@ textarea.form-control {
   .pb-75 {
     padding-bottom: 55px;
   }
-  .shape1,
-  .shape2,
-  .shape6 {
+  .shape1, .shape2, .shape6 {
     display: none;
   }
   .shape10 {

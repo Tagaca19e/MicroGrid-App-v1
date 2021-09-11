@@ -427,6 +427,7 @@ Screenshots Area CSS
   }
   .gradient-main-banner-inner .content .default-btn {
     margin-top: 5px;
+    background-color: #444444;
   }
   .gradient-main-banner-inner .content p {
     max-width: 100%;
