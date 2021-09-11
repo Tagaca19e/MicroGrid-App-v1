@@ -31,7 +31,7 @@ const IndexPage4 = () => {
       <BestAppEver />
 
       <KeyFeatures />
-      {/* Please remove this after pushing */}
+
       <AppProgressStyle3 />
       <AppProgressStyle3 />
 
