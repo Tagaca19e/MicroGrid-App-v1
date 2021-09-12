@@ -13,10 +13,8 @@ const MainBanner = () => {
                 <span className="sub-title">Get your 14 days free trail</span>
                 <h1>Microgrid Energy Management Solution</h1>
                 <p>
-                  Mission critical operations need a reliable power system that
-                  operates by supplementing the utility grid in parallel mode or
-                  autonomous island mode in a clean, optimized, low cost and
-                  resilient manner.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                  tincidunt eifend odio viverra diam aliquet donec again.
                 </p>
 
                 <Link href="/sign-in">
@@ -41,7 +39,7 @@ const MainBanner = () => {
         </div>
 
         {/* Shape Images */}
-        {/* <div className="banner-shape3">
+        <div className="banner-shape3">
           <img src="/images/shape/shape2.png" alt="image" />
         </div>
         <div className="shape13">
@@ -55,7 +53,7 @@ const MainBanner = () => {
         </div>
         <div className="banner-shape8">
           <img src="/images/shape/shape11.png" alt="image" />
-        </div> */}
+        </div>
       </div>
     </>
   );

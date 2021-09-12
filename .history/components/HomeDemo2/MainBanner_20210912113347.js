@@ -55,8 +55,8 @@ const MainBanner = () => {
         </div>
         <div className="banner-shape8">
           <img src="/images/shape/shape11.png" alt="image" />
-        </div> */}
-      </div>
+        </div>
+      </div> */}
     </>
   );
 };

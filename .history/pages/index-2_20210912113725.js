@@ -19,16 +19,15 @@ const IndexPage2 = () => {
       <NavbarStyleTwo />
 
       <MainBanner />
-      <PartnerStyle1 />
 
       {/* <Features /> */}
 
-      {/* <KeyFeatures /> */}
+      <KeyFeatures />
 
       <AppProgressStyle2 />
+      <IntroVideo />
 
       <AppScreenshotsStyle2 />
-      <IntroVideo />
 
       <SoftwareIntegrationsTwo />
 
@@ -37,6 +36,8 @@ const IndexPage2 = () => {
       <PricingPlanStyle2 />
 
       <FreeTrialStyle2 />
+
+      <PartnerStyle1 />
 
       <FooterStyleOne />
     </>

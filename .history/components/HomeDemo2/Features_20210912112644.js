@@ -37,6 +37,12 @@ const Features = () => {
                 </div>
                 <h3>Lifetime Update</h3>
               </div>
+              <div className="features-box">
+                <div className="icon bg4">
+                  <i className="ri-vip-diamond-line"></i>
+                </div>
+                <h3>Lifetime Update</h3>
+              </div>
             </div>
           </div>
         </div>

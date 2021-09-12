@@ -41,7 +41,7 @@ const MainBanner = () => {
         </div>
 
         {/* Shape Images */}
-        {/* <div className="banner-shape3">
+        <div className="banner-shape3">
           <img src="/images/shape/shape2.png" alt="image" />
         </div>
         <div className="shape13">
@@ -55,7 +55,7 @@ const MainBanner = () => {
         </div>
         <div className="banner-shape8">
           <img src="/images/shape/shape11.png" alt="image" />
-        </div> */}
+        </div>
       </div>
     </>
   );

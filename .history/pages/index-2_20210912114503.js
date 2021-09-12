@@ -23,7 +23,7 @@ const IndexPage2 = () => {
 
       {/* <Features /> */}
 
-      {/* <KeyFeatures /> */}
+      <KeyFeatures />
 
       <AppProgressStyle2 />
 
