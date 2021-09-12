@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarStyleTwo from "@/components/_App/NavbarStyleOne";
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
 import MainBanner from "@/components/HomeDemo2/MainBanner";
 import Features from "@/components/HomeDemo2/Features";
 import KeyFeatures from "@/components/HomeDemo2/KeyFeatures";
