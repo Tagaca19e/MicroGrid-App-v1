@@ -15,6 +15,8 @@ const MainBanner = () => {
                 <p>
                   Mission critical operations need a reliable power system that
                   operates by supplementing the utility grid in parallel mode or
+                  autonomous island mode in a clean, optimized, low cost and
+                  resilient manner.
                 </p>
 
                 <Link href="/sign-in">
