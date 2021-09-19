@@ -156,11 +156,11 @@ Features Area CSS
 }
 
 .features-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3dc5ab 7.79%, #3dc5ab 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 
 .features-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #50cb93 7.79%, #50cb93 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 
 .features-box .icon::before {

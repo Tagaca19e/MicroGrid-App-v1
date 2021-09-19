@@ -18,7 +18,7 @@ Banner Area CSS
   left: 0;
   z-index: -1;
   width: 100%;
-  content: "";
+  content: '';
   height: 90%;
   position: absolute;
   background-image: url(/images/banner/banner-shape1.png);
@@ -55,8 +55,8 @@ Banner Area CSS
 }
 
 .banner-content h1 {
-  font-size: 90px;
-  line-height: 5rem;
+  font-size: 48px;
+  line-height: 1.4;
   margin-bottom: 20px;
 }
 
@@ -83,13 +83,13 @@ Banner Area CSS
 
 .banner-shape6 img {
   -webkit-animation-name: rotateme;
-  animation-name: rotateme;
+          animation-name: rotateme;
   -webkit-animation-duration: 20s;
-  animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 .banner-shape7 {
@@ -101,7 +101,7 @@ Banner Area CSS
 
 .banner-shape7 img {
   -webkit-animation: movebounce 5s linear infinite;
-  animation: movebounce 5s linear infinite;
+          animation: movebounce 5s linear infinite;
 }
 
 .banner-shape8 {
@@ -113,7 +113,7 @@ Banner Area CSS
 
 .banner-shape8 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-  animation: moveleftbounce 5s linear infinite;
+          animation: moveleftbounce 5s linear infinite;
 }
 
 /*================================================
@@ -135,8 +135,8 @@ Features Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
-  box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
-  background: linear-gradient(45.24deg, #3dc5ab 5.99%, #3dc5ab 91.87%);
+          box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
+  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -148,26 +148,26 @@ Features Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .features-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #50cb93 7.79%, #50cb93 94.18%);
+  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
 }
 
 .features-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3dc5ab 7.79%, #3dc5ab 94.18%);
+  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
 }
 
 .features-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #50cb93 7.79%, #50cb93 94.18%);
+  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
 }
 
 .features-box .icon::before {
   position: absolute;
   height: 31px;
   width: 65px;
-  content: "";
+  content: '';
   right: 0;
   left: 0;
   top: 0;
@@ -181,11 +181,11 @@ Features Area CSS
 
 .features-box .icon::after {
   -webkit-transform: scaleX(-1) scaleY(-1);
-  transform: scaleX(-1) scaleY(-1);
+          transform: scaleX(-1) scaleY(-1);
   position: absolute;
   height: 31px;
   width: 65px;
-  content: "";
+  content: '';
   bottom: 0;
   right: 0;
   left: 0;
@@ -220,23 +220,23 @@ Features Area CSS
   padding-left: 0;
   list-style-type: none;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: -30px;
-  margin-left: calc(var(--bs-gutter-x) / -2);
-  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
 }
 
 .features-lists ul li {
   margin-bottom: 30px;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   width: 50%;
-  padding-left: calc(var(--bs-gutter-x) / 2);
-  padding-right: calc(var(--bs-gutter-x) / 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
+  padding-right: calc(var(--bs-gutter-x)/ 2);
 }
 
 .features-lists ul li .icon {
@@ -250,7 +250,7 @@ Features Area CSS
   color: var(--whiteColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
+  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
 }
 
 .features-lists ul li .icon i {
@@ -259,32 +259,27 @@ Features Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .features-lists ul li .icon.bg2 {
-  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
+  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
 }
 
 .features-lists ul li .icon.bg3 {
-  background: linear-gradient(45deg, #ed2775 0%, #ff7448 100%);
+  background: linear-gradient(45deg, #ED2775 0%, #FF7448 100%);
 }
 
 .features-lists ul li .icon.bg4 {
-  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
+  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
 }
 
 .features-lists ul li .icon.bg5 {
-  background: linear-gradient(
-    43.32deg,
-    #6a55f8 14.73%,
-    #ca48f6 86.35%,
-    #ca48f6 86.35%
-  );
+  background: linear-gradient(43.32deg, #6A55F8 14.73%, #CA48F6 86.35%, #CA48F6 86.35%);
 }
 
 .features-lists ul li .icon.bg6 {
-  background: linear-gradient(45deg, #6a55f8 0%, #ee6c74 100%);
+  background: linear-gradient(45deg, #6A55F8 0%, #EE6C74 100%);
 }
 
 .features-lists ul li h3 {
@@ -307,7 +302,7 @@ App Progress Area CSS
 
 .app-progress-content.text-white p {
   color: var(--whiteColor);
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .app-progress-animation-image {
@@ -319,7 +314,7 @@ App Progress Area CSS
 
 .app-progress-animation-image .app-img {
   -webkit-filter: drop-shadow(15px 25px 50px rgba(25, 34, 64, 0.12));
-  filter: drop-shadow(15px 25px 50px rgba(25, 34, 64, 0.12));
+          filter: drop-shadow(15px 25px 50px rgba(25, 34, 64, 0.12));
 }
 
 .app-progress-animation-image .app-img:nth-child(2) {
@@ -384,7 +379,7 @@ Video Area CSS
   right: 0;
   bottom: 0;
   z-index: 1;
-  content: "";
+  content: '';
   opacity: 0.4;
   position: absolute;
   border-radius: 10px;
@@ -409,20 +404,19 @@ Video Area CSS
   top: 50%;
   z-index: 1;
   -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
-  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+          transform: translateY(-50%) translateX(-50%);
+  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-  box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
+          box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
   -webkit-transition: var(--transition);
   transition: var(--transition);
   cursor: pointer;
 }
 
-.intro-video-box .video-btn::after,
-.intro-video-box .video-btn::before {
-  content: "";
+.intro-video-box .video-btn::after, .intro-video-box .video-btn::before {
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -436,12 +430,12 @@ Video Area CSS
 
 .intro-video-box .video-btn::before {
   -webkit-animation: ripple 2s linear infinite;
-  animation: ripple 2s linear infinite;
+          animation: ripple 2s linear infinite;
 }
 
 .intro-video-box .video-btn::after {
   -webkit-animation: ripple 2s linear 1s infinite;
-  animation: ripple 2s linear 1s infinite;
+          animation: ripple 2s linear 1s infinite;
 }
 
 .intro-video-box:hover::before {
@@ -471,7 +465,7 @@ Screenshots Area CSS
 
 .screenshots-swiper-slides .swiper-slide.swiper-slide-active {
   -webkit-box-shadow: 0px 35px 70px 5px rgba(25, 34, 64, 0.15);
-  box-shadow: 0px 35px 70px 5px rgba(25, 34, 64, 0.15);
+          box-shadow: 0px 35px 70px 5px rgba(25, 34, 64, 0.15);
   border-radius: 10px;
 }
 
@@ -490,7 +484,7 @@ Screenshots Area CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
 }
 
 .screenshots-swiper-slides .swiper-button-next::after {
@@ -498,7 +492,7 @@ Screenshots Area CSS
 }
 
 .screenshots-swiper-slides .swiper-button-next::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -516,7 +510,7 @@ Screenshots Area CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
 }
 
 .screenshots-swiper-slides .swiper-button-prev::after {
@@ -524,7 +518,7 @@ Screenshots Area CSS
 }
 
 .screenshots-swiper-slides .swiper-button-prev::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -539,21 +533,16 @@ Screenshots Area CSS
 Software Integrations Area CSS
 =================================================*/
 .software-integrations-area.bg-gradient-color::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -1;
-  background: linear-gradient(
-    279.99deg,
-    #9f5ff1 -1.19%,
-    #ff54b0 50.99%,
-    #ff9f5a 100%
-  );
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .software-integrations-area .shape8 {
@@ -574,7 +563,7 @@ Software Integrations Area CSS
 
 .software-integrations-content.white-color p {
   color: var(--whiteColor);
-  opacity: 0.9;
+  opacity: .9;
 }
 
 /*================================================
@@ -582,7 +571,7 @@ Feedback Area CSS
 =================================================*/
 .single-feedback-item {
   -webkit-box-shadow: 0px 0px 30px rgba(29, 23, 77, 0.07);
-  box-shadow: 0px 0px 30px rgba(29, 23, 77, 0.07);
+          box-shadow: 0px 0px 30px rgba(29, 23, 77, 0.07);
   background-color: var(--whiteColor);
   text-align: center;
   padding: 60px 80px;
@@ -629,7 +618,7 @@ Feedback Area CSS
 
 .single-feedback-item .rating div i {
   line-height: 1;
-  color: #ffca40;
+  color: #FFCA40;
 }
 
 .feedback-swiper-slides {
@@ -650,7 +639,7 @@ Feedback Area CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
   padding-left: 3px;
 }
 
@@ -659,7 +648,7 @@ Feedback Area CSS
 }
 
 .feedback-swiper-slides .swiper-button-next::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -678,7 +667,7 @@ Feedback Area CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
   padding-right: 3px;
 }
 
@@ -687,7 +676,7 @@ Feedback Area CSS
 }
 
 .feedback-swiper-slides .swiper-button-prev::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -754,7 +743,7 @@ Pricing Area CSS
   top: -3.5px;
   left: -2px;
   font-size: 22px;
-  color: #36cc72;
+  color: #36CC72;
   position: absolute;
 }
 
@@ -766,10 +755,9 @@ Pricing Area CSS
   margin-bottom: 0;
 }
 
-.single-pricing-box:hover,
-.single-pricing-box.active {
+.single-pricing-box:hover, .single-pricing-box.active {
   -webkit-box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
 }
 
 .single-pricing-box .popular {
@@ -877,9 +865,7 @@ Partner Area CSS
     padding-left: 0;
     margin-top: 20px;
   }
-  .banner-shape6,
-  .banner-shape7,
-  .banner-shape8 {
+  .banner-shape6, .banner-shape7, .banner-shape8 {
     display: none;
   }
   .features-box .icon {
@@ -906,8 +892,8 @@ Partner Area CSS
   }
   .features-lists ul li {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     width: 50%;
     border: 1px solid #eee;
     padding: 20px 15px;
@@ -949,7 +935,7 @@ Partner Area CSS
   }
   .screenshots-swiper-slides .swiper-slide.swiper-slide-active {
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
     border: 1px solid #eeeeee;
   }
   .screenshots-swiper-slides .swiper-button-next {
@@ -959,10 +945,10 @@ Partner Area CSS
     width: 35px;
     height: 35px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
     margin-right: -22px;
     -webkit-transform: translateY(0) translateX(50%) !important;
-    transform: translateY(0) translateX(50%) !important;
+            transform: translateY(0) translateX(50%) !important;
   }
   .screenshots-swiper-slides .swiper-button-next::after {
     font-size: 15px;
@@ -975,10 +961,10 @@ Partner Area CSS
     height: 35px;
     margin-top: 25px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
     margin-left: -22px;
     -webkit-transform: translateY(0) translateX(-50%) !important;
-    transform: translateY(0) translateX(-50%) !important;
+            transform: translateY(0) translateX(-50%) !important;
   }
   .screenshots-swiper-slides .swiper-button-prev::after {
     left: -2px;
@@ -1002,7 +988,7 @@ Partner Area CSS
     border: 1px solid #eeeeee;
     padding: 20px 15px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
   }
   .single-feedback-item .client-info {
     margin-bottom: 20px;
@@ -1030,8 +1016,7 @@ Partner Area CSS
     overflow: hidden;
     padding-bottom: 55px;
   }
-  .feedback-swiper-slides .swiper-slide-shadow-right,
-  .feedback-swiper-slides .swiper-slide-shadow-left {
+  .feedback-swiper-slides .swiper-slide-shadow-right, .feedback-swiper-slides .swiper-slide-shadow-left {
     display: none;
   }
   .feedback-swiper-slides .swiper-button-next {
@@ -1041,10 +1026,10 @@ Partner Area CSS
     width: 35px;
     height: 35px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
     margin-right: -22px;
     -webkit-transform: translateY(0) translateX(50%) !important;
-    transform: translateY(0) translateX(50%) !important;
+            transform: translateY(0) translateX(50%) !important;
   }
   .feedback-swiper-slides .swiper-button-next::after {
     font-size: 15px;
@@ -1057,10 +1042,10 @@ Partner Area CSS
     height: 35px;
     margin-top: 25px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
     margin-left: -22px;
     -webkit-transform: translateY(0) translateX(-50%) !important;
-    transform: translateY(0) translateX(-50%) !important;
+            transform: translateY(0) translateX(-50%) !important;
   }
   .feedback-swiper-slides .swiper-button-prev::after {
     left: -2px;
@@ -1150,9 +1135,7 @@ Partner Area CSS
     padding-left: 0;
     margin-top: 20px;
   }
-  .banner-shape6,
-  .banner-shape7,
-  .banner-shape8 {
+  .banner-shape6, .banner-shape7, .banner-shape8 {
     display: none;
   }
   .features-box .icon {
@@ -1239,7 +1222,7 @@ Partner Area CSS
   .single-feedback-item {
     padding: 30px;
     -webkit-box-shadow: unset;
-    box-shadow: unset;
+            box-shadow: unset;
     border: 1px solid #eeeeee;
   }
   .single-feedback-item .client-info {
@@ -1314,8 +1297,7 @@ Partner Area CSS
   .banner-content .default-btn {
     margin-top: 5px;
   }
-  .banner-shape7,
-  .banner-shape8 {
+  .banner-shape7, .banner-shape8 {
     display: none;
   }
   .banner-shape6 {

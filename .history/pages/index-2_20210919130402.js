@@ -32,9 +32,9 @@ const IndexPage2 = () => {
 
       <SoftwareIntegrationsTwo />
 
-      {/* <ClientFeedbackStyle2 /> */}
+      <ClientFeedbackStyle2 />
 
-      {/* <PricingPlanStyle2 /> */}
+      <PricingPlanStyle2 />
 
       <FreeTrialStyle2 />
 

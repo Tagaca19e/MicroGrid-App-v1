@@ -34,7 +34,7 @@ const IndexPage2 = () => {
 
       {/* <ClientFeedbackStyle2 /> */}
 
-      {/* <PricingPlanStyle2 /> */}
+      <PricingPlanStyle2 />
 
       <FreeTrialStyle2 />
 

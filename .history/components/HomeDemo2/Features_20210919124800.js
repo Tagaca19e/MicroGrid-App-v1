@@ -11,7 +11,7 @@ const Features = () => {
                 <div className="icon">
                   <i className="ri-smartphone-line"></i>
                 </div>
-                <h3>Friendly</h3>
+                <h3>User Friendly</h3>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">

@@ -56,7 +56,7 @@ Banner Area CSS
 
 .banner-content h1 {
   font-size: 90px;
-  line-height: 5rem;
+  line-height: 1rem;
   margin-bottom: 20px;
 }
 
@@ -136,7 +136,7 @@ Features Area CSS
   transition: var(--transition);
   -webkit-box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
   box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
-  background: linear-gradient(45.24deg, #3dc5ab 5.99%, #3dc5ab 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -152,15 +152,15 @@ Features Area CSS
 }
 
 .features-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #50cb93 7.79%, #50cb93 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
 }
 
 .features-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3dc5ab 7.79%, #3dc5ab 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 
 .features-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #50cb93 7.79%, #50cb93 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 
 .features-box .icon::before {

@@ -37,7 +37,7 @@ const NavbarStyleTwo = () => {
             <nav className="navbar navbar-expand-md navbar-light bg-light">
               <Link href="/">
                 <a className="navbar-brand">
-                  <img src="/images/logo19.png" alt="logo" />
+                  <img src="/images/log19.png" alt="logo" />
                 </a>
               </Link>
 

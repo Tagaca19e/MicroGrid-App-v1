@@ -15,9 +15,8 @@ const MainBanner = () => {
                 </span>
                 <h1>Control Within The Palm Of Your Hands</h1>
                 <p>
-                  Opren's scalable Microgrid controller is a comprehensive
-                  software and hardware platform that provides complete system
-                  automation for reliable and secure operation.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                  tincidunt eifend odio viverra diam aliquet donec again.
                 </p>
 
                 <Link href="/sign-in">
@@ -46,7 +45,7 @@ const MainBanner = () => {
           <img src="/images/shape/shape2.png" alt="image" />
         </div>
         <div className="shape13">
-          {/* <img src="/images/shape/shape15.png" alt="shape" /> */}
+          <img src="/images/shape/shape15.png" alt="shape" />
         </div>
         <div className="banner-shape6">
           <img src="/images/shape/shape16.png" alt="image" />
