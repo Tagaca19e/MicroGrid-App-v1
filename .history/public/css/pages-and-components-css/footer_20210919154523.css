@@ -1,6 +1,10 @@
 .footer-area {
-  background-color: #262a37;
-  background-image: url(/public/images/wave1.svg);
+  background-color: black;
+  background: url("https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg")
+    no-repeat center center;
+  background-size: cover;
+  width: 10%;
+  display: block;
   padding-top: 100px;
   padding-bottom: 90px;
 }

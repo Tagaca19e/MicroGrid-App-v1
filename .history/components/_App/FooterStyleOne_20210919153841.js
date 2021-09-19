@@ -74,8 +74,8 @@ const FooterStyleOne = () => {
             </ul>
 
             <p className="copyright">
-              Copyright &copy; {currentYear} <strong>Opren</strong>. All Rights
-              Reserved by{" "}
+              Copyright &copy; {currentYear} <strong>Oprengg</strong>. All
+              Rights Reserved by{" "}
               <a href="" target="_blank">
                 Opren
               </a>

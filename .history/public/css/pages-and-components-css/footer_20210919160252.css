@@ -1,6 +1,6 @@
 .footer-area {
   background-color: #262a37;
-  background-image: url(/public/images/wave1.svg);
+  background-image: url("/public/images/wave1.svg");
   padding-top: 100px;
   padding-bottom: 90px;
 }
@@ -9,6 +9,7 @@
   background-color: #f4f8fc;
   padding-top: 100px;
   padding-bottom: 0;
+  background-image: url("/public/images/wave1.svg");
 }
 
 .footer-area.footer-style-two.bg-black {

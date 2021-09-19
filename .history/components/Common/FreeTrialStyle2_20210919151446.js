@@ -26,11 +26,10 @@ const FreeTrialStyle2 = () => {
 
             {/* Shape Images */}
             <div className="shape8">
-              <img src="/images/shape/fan2.png" alt="shape" />
+              <img src="/images/shape/shape7.png" alt="shape" />
             </div>
-
             <div className="shape9">
-              <img src="/images/shape/bolt2.png" alt="shape" />
+              <img src="/images/shape/shape8.png" alt="shape" />
             </div>
 
             {/* Animation lines */}

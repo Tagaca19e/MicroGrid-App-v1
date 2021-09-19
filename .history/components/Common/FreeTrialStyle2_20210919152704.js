@@ -30,7 +30,7 @@ const FreeTrialStyle2 = () => {
             </div>
 
             <div className="shape9">
-              <img src="/images/shape/bolt2.png" alt="shape" />
+              <img src="/images/shape/bolt.png" alt="shape" />
             </div>
 
             {/* Animation lines */}
