@@ -59,19 +59,20 @@ const AppProgressStyle2 = () => {
               <div className="app-progress-content text-white">
                 <span className="sub-title">KEEP TRACK</span>
                 <h2>
-                  Track Your Energy Consumption with Our Integrated Dashboard
+                  Track Your Energy Consuption with Our Integrated Dashboard
                 </h2>
                 <p>
-                  An energy dashboard is a cutting-edge reporting tool that uses
-                  an interactive interface to monitor energy KPIs in real time.
-                  It assists energy suppliers, among other things, in meeting
-                  rapidly changing market demands, analyzing and optimizing
-                  production costs, and increasing overall profitability in the
-                  long run.
+                  Cloud based storage for your data backup just log in with your
+                  mail account from play store and using whatever you want for
+                  your business purpose orem ipsum dummy text. never missyour
+                  chance its just began. backup just log in with your mail
+                  account from.
                 </p>
                 <p>
-                  Login to your account with Opren, and you can easily access
-                  your energy consumption dashboard. It's that easy.
+                  Most provabily best for your data backup just log in with your
+                  mail account from play store and using whatever you want for
+                  your business purpose orem ipsum dummy backup just log in with
+                  your mail account from.
                 </p>
 
                 <Link href="/sign-in">

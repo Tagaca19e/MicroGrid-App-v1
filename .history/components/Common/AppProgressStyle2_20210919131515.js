@@ -70,8 +70,10 @@ const AppProgressStyle2 = () => {
                   long run.
                 </p>
                 <p>
-                  Login to your account with Opren, and you can easily access
-                  your energy consumption dashboard. It's that easy.
+                  Most provabily best for your data backup just log in with your
+                  mail account from play store and using whatever you want for
+                  your business purpose orem ipsum dummy backup just log in with
+                  your mail account from.
                 </p>
 
                 <Link href="/sign-in">

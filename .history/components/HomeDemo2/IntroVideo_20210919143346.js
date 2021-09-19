@@ -56,16 +56,16 @@ const IntroVideo = () => {
                 </div>
 
                 <div className="shape">
-                  {/* <img
+                  <img
                     className="shape10"
                     src="/images/shape/shape13.png"
                     alt="image"
-                  /> */}
-                  {/* <img
+                  />
+                  <img
                     className="shape11"
                     src="/images/shape/shape14.png"
                     alt="image"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>

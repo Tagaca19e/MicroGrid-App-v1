@@ -71,7 +71,7 @@ const AppProgressStyle2 = () => {
                 </p>
                 <p>
                   Login to your account with Opren, and you can easily access
-                  your energy consumption dashboard. It's that easy.
+                  your energy consumption dashboard.
                 </p>
 
                 <Link href="/sign-in">

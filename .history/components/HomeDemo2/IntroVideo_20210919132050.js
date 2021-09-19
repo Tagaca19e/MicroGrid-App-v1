@@ -22,17 +22,13 @@ const IntroVideo = () => {
                 <span className="sub-title">HOW DOES IT WORK?</span>
                 <h2>Watch Our Video On How Opren Really Works</h2>
                 <p>
-                  The controller, which can be quite sophisticated and serves as
-                  the system's brain, is at the heart of either a microgrid or a
-                  minigrid. Microgrid controllers can be configured to perform
-                  various functions through both hardware configuration and
-                  software programming, and in grid-connected systems, they can
-                  be used to generate revenue by selling energy back to the grid
-                  or providing other ancillary services to the utility,
-                  depending on local market rules and utility programs. To meet
-                  emissions reduction goals, microgrid controllers can also be
-                  programmed to use the cleanest available energy resources from
-                  among the installed onsite options.
+                  Cloud based storage for your data backup just log in with your
+                  mail account from play store and using whatever you want for
+                  your business purpose orem ipsum dummy text. Never missyour
+                  chance its just began. Cloud based storage for your data
+                  backup just log in with your mail account from play store and
+                  using whatever you want for your business purpose orem ipsum
+                  dummy text. Never missyour chance its just began.
                 </p>
 
                 <Link href="/contact">
@@ -43,7 +39,7 @@ const IntroVideo = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="intro-video-box">
-                <img src="/images/video/Placeholder.png" alt="video-img" />
+                <img src="/images/video/video-img1.jpg" alt="video-img" />
 
                 <div
                   onClick={(e) => {
@@ -56,16 +52,16 @@ const IntroVideo = () => {
                 </div>
 
                 <div className="shape">
-                  {/* <img
+                  <img
                     className="shape10"
                     src="/images/shape/shape13.png"
                     alt="image"
-                  /> */}
-                  {/* <img
+                  />
+                  <img
                     className="shape11"
                     src="/images/shape/shape14.png"
                     alt="image"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>

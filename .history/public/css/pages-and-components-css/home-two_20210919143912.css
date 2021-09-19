@@ -390,6 +390,7 @@ Video Area CSS
   border-radius: 10px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  background: rgba(34, 36, 50, 0.52);
 }
 
 .intro-video-box img {
@@ -432,7 +433,7 @@ Video Area CSS
   border-radius: 50%;
   border: 1px solid var(--whiteColor);
 }
-
+/* 
 .intro-video-box .video-btn::before {
   -webkit-animation: ripple 2s linear infinite;
   animation: ripple 2s linear infinite;
@@ -441,7 +442,7 @@ Video Area CSS
 .intro-video-box .video-btn::after {
   -webkit-animation: ripple 2s linear 1s infinite;
   animation: ripple 2s linear 1s infinite;
-}
+} */
 
 .intro-video-box:hover::before {
   opacity: 0;
@@ -545,17 +546,14 @@ Software Integrations Area CSS
   top: 0;
   bottom: 0;
   z-index: -1;
-  background-color: #9bf9e9;
-  background-image: -webkit-linear-gradient(90deg, #73ddcb 0%, #3dc5ab 100%);
-  background-image: -moz-linear-gradient(90deg, #73ddcb 0%, #3dc5ab 100%);
-  background-image: -o-linear-gradient(90deg, #73ddcb 0%, #3dc5ab 100%);
-  background-image: linear-gradient(90deg, #73ddcb 0%, #3dc5ab 100%);
-
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 30px;
 }
 
 .software-integrations-area .shape8 {

@@ -43,7 +43,7 @@ const IntroVideo = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="intro-video-box">
-                <img src="/images/video/Placeholder.png" alt="video-img" />
+                <img src="/images/video/video-img1.jpg" alt="video-img" />
 
                 <div
                   onClick={(e) => {
@@ -56,16 +56,16 @@ const IntroVideo = () => {
                 </div>
 
                 <div className="shape">
-                  {/* <img
+                  <img
                     className="shape10"
                     src="/images/shape/shape13.png"
                     alt="image"
-                  /> */}
-                  {/* <img
+                  />
+                  <img
                     className="shape11"
                     src="/images/shape/shape14.png"
                     alt="image"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>

@@ -51,9 +51,7 @@ const IntroVideo = () => {
                     openModal();
                   }}
                   className="video-btn popup-youtube"
-                >
-                  <i className="ri-play-line"></i>
-                </div>
+                ></div>
 
                 <div className="shape">
                   {/* <img
