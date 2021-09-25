@@ -38,7 +38,7 @@ const IndexPage2 = () => {
 
       <FreeTrialStyle2 />
 
-      <PartnerStyle1 />
+      {/* <PartnerStyle1 /> */}
 
       <FooterStyleOne />
     </>

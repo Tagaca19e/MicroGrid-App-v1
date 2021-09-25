@@ -92,8 +92,8 @@ const NavbarStyleOne = () => {
                 </ul>
               </div>
 
-              <div className="others-options">
-                <Link href="/sign-up">
+              <div className="/sign-up">
+                <Link href="/contact">
                   <a className="default-btn">Get Started</a>
                 </Link>
               </div>

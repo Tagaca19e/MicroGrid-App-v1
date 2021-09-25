@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "@/utils/ActiveLink";
 
-const NavbarStyleOne = () => {
+const NavbarStyleTwo = () => {
   const [menu, setMenu] = React.useState(true);
 
   const toggleNavbar = () => {
@@ -31,13 +31,13 @@ const NavbarStyleOne = () => {
 
   return (
     <>
-      <div id="navbar" className="navbar-area">
+      <div id="navbar" className="navbar-area navbar-style-two">
         <div className="texap-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light bg-light">
               <Link href="/">
                 <a className="navbar-brand">
-                  <img src="/images/opren1.png" alt="logo" />
+                  <img src="/images/logo19.png" alt="logo" />
                 </a>
               </Link>
 
@@ -75,9 +75,38 @@ const NavbarStyleOne = () => {
                   </li>
 
                   <li className="nav-item">
+                    <Link href="#">
+                      <a
+                        onClick={(e) => e.preventDefault()}
+                        className="dropdown-toggle nav-link"
+                      >
+                        Features
+                      </a>
+                    </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link href="/features" activeClassName="active">
+                          <a onClick={toggleNavbar} className="nav-link">
+                            Features 1
+                          </a>
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link href="/features-2" activeClassName="active">
+                          <a onClick={toggleNavbar} className="nav-link">
+                            Features 2
+                          </a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item">
                     <Link href="/blog-grid" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
-                        Blog
+                        Blog Grid
                       </a>
                     </Link>
                   </li>
@@ -93,7 +122,7 @@ const NavbarStyleOne = () => {
               </div>
 
               <div className="others-options">
-                <Link href="/sign-up">
+                <Link href="/contact">
                   <a className="default-btn">Get Started</a>
                 </Link>
               </div>
@@ -105,4 +134,4 @@ const NavbarStyleOne = () => {
   );
 };
 
-export default NavbarStyleOne;
+export default NavbarStyleTwo;
