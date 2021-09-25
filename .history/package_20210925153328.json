@@ -7,7 +7,6 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build && next export",
-        "export": "next export && touch out/.nojekyll",
         "start": "next start"
     },
     "author": "envytheme.com",

@@ -3,11 +3,10 @@
     "version": "1.1.0",
     "description": "Next.js Strapi App & SaaS Startup Template",
     "main": "index.js",
-
+    "homepage": "http://Tagaca19e.github.io/MicroGrid-App-v1",
     "scripts": {
         "dev": "next dev",
         "build": "next build && next export",
-        "export": "next export && touch out/.nojekyll",
         "start": "next start"
     },
     "author": "envytheme.com",
