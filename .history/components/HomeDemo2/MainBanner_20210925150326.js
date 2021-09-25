@@ -10,9 +10,8 @@ const MainBanner = () => {
           <div className="row align-items-center m-0">
             <div className="col-lg-6 col-md-12 p-0">
               <div className="banner-content">
-                <h1>
-                  Control Within The Palm Of Your <span>Hands</span>
-                </h1>
+            
+                <h1>Control Within The Palm Of Your Hands</h1>
                 <p>
                   Opren's scalable Microgrid controller is a comprehensive
                   software and hardware platform that provides complete system
